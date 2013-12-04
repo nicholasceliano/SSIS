@@ -4,7 +4,7 @@ SSIS
 <b>Description: </b> This process runs daily against SAP to provide Legal users with an update of the Invoices that have been processed the previous day. This process currently runs for three internal Legal functions and can have one of three results:
   1. Invoices are accounted for and their information is output into a file location as a XML file.
   2. There is a failure in one of the Invoices records in SAP and a .txt error file is output containing the Invoices that need to be fixed. 
-  3. No Invoices are processed for the previuos day and no output files are generated.
+  3. No Invoices are processed for the previous day and no output files are generated.
   
 Depending on the result, an email containing the actions is sent to the appropriate business user.
 
